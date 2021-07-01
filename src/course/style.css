@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:#f1f5f8;
+    color:#222;
+}
+
+img {
+    width: 5rem;
+    content: fit;
+
+}
+.booklist{
+    padding: 12px;
+    margin:0;
+    /* display:flex; */
+    flex-direction:column;
+    flex-wrap: wrap;
+    gap:2rem;  
+    height:150px;  
+}
+
+.bookList {
+    width: 90vw;
+display:flex;
+
+
+}
+input{
+margin:10px 5px;
+border-radius: 5px;
+outline: none;
+padding:3px;
+min-width: 80%;
+
+}
+form{
+    position:relative;
+    height:100%;
+    width:33%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items:center;
+    flex:stretch;
+    text-align:center;
+    margin-left: 90px;
+    margin-top: 30px;;
+
+}
+button{
+    border-radius: 99999px;
+    padding:10px;
+    border: none;
+    box-shadow: 1px 1px;
+}
+
+.App {
+    margin: 2rem;
+    text-align: center;
+}
+
+h1 {
+    color: #07F;
+}
+
+.drag-drop-zone {
+    padding: 2rem;
+    text-align: center;
+    background: #07F;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 10px #C0C0C0;
+}
+
+.drag-drop-zone p {
+    color: #FFF;
+}
+
+.drag-drop-zone.inside-drag-area {
+    opacity: 0.7;
+}
+
+.dropped-files li {
+    color: #07F;
+    padding: 3px;
+    text-align: left;
+    font-weight: bold;
+}
